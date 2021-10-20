@@ -23,7 +23,7 @@
     >The detail introduction and implementation can refer [official temporal-shift-module](https://github.com/mit-han-lab/temporal-shift-module)
 * ### [2-layers C3D](https://github.com/jerry940100/Video-Based-Facial-Expression-Recognition/blob/main/Model/C3D.py)
     
-    ![](https://i.imgur.com/3nqoA8z.png =x400)
+    <img src=https://i.imgur.com/3nqoA8z.png alt="drawing" style="width:250px;vertical-align:middle;"/><br>
 
 * ### TimeSFormer
     ![](https://i.imgur.com/O3l1yam.png)
@@ -33,7 +33,7 @@
     ![](https://i.imgur.com/9Ju3Tuz.png)
     >ViViT first embeds each frame of a video sequence and        separates them into different **Vision Transformer**.  After getting each ViT output. ViViT sends each output of ViT to a temporal transformer to learn temporal information between different embeddings. 
 * ### [CNN+LSTM_Attention](https://github.com/jerry940100/Video-Based-Facial-Expression-Recognition/blob/main/Model/CNNplusLSTM.py)
-    ![](https://i.imgur.com/b58jPh3.png =x400)
+    <img src=https://i.imgur.com/b58jPh3.png alt="drawing" style="width:250px;vertical-align:middle;"/><br>
     >This model first uses CNN to extract spatial features in each frame and input these embeddings into LSTM model to learn the temporal features in the video sequence. After LSTM, we use the Attention here to learn the importance degree in the sequence. Then, we do the weighted sum on each embedding from LSTM and connect a linear layer to classify.
 
 
